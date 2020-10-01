@@ -1,0 +1,19 @@
+#navbar {
+  position: fixed;
+  position: -webkit-fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms;
+  z-index: 99;
+}
+
+.navbarLogo {
+  object-fit: contain;
+  height: 80%;
+}
